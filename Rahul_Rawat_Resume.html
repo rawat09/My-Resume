@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rahul Rawat - Frontend Web Designer</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box
+		}
+
+		body {
+			font-family: Poppins, sans-serif;
+			background: #eef2f7;
+			padding: 24px;
+			color: #333
+		}
+
+		.resume {
+			max-width: 1200px;
+			margin: auto;
+			background: #fff;
+			display: grid;
+			grid-template-columns: 320px 1fr;
+			box-shadow: 0 15px 40px rgba(0, 0, 0, .12);
+			overflow: hidden;
+			border-radius: 16px
+		}
+
+		.sidebar {
+			background: #17324D;
+			color: #fff;
+			padding: 35px
+		}
+
+		.profile {
+			text-align: center;
+			padding-bottom: 25px;
+			border-bottom: 1px solid rgba(255, 255, 255, .15)
+		}
+
+		.avatar {
+			width: 120px;
+			height: 120px;
+			border-radius: 50%;
+			background: #fff;
+			margin: 0 auto 15px
+		}
+
+		.profile h2 {
+			font-size: 28px
+		}
+
+		.profile p {
+			color: #d9e4ef
+		}
+
+		.section {
+			margin-top: 28px
+		}
+
+		.section h3 {
+			font-size: 16px;
+			letter-spacing: 1px;
+			margin-bottom: 12px;
+			text-transform: uppercase
+		}
+
+		.section ul {
+			list-style: none
+		}
+
+		.section li {
+			margin: 8px 0;
+			font-size: 14px
+		}
+
+		.main {
+			padding: 40px
+		}
+
+		.hero {
+			margin-bottom: 30px
+		}
+
+		.hero h1 {
+			font-size: 48px;
+			color: #17324D;
+			line-height: 1
+		}
+
+		.hero h2 {
+			font-size: 22px;
+			margin-top: 10px
+		}
+
+		.tagline {
+			margin-top: 12px;
+			color: #666
+		}
+
+		.card {
+			margin-bottom: 28px
+		}
+
+		.card h3 {
+			color: #17324D;
+			border-left: 5px solid #17324D;
+			padding-left: 12px;
+			margin-bottom: 15px
+		}
+
+		.job {
+			padding: 18px;
+			background: #f8fafc;
+			border-radius: 10px;
+			margin-bottom: 16px
+		}
+
+		.jobhead {
+			display: flex;
+			justify-content: space-between;
+			gap: 10px;
+			flex-wrap: wrap
+		}
+
+		.jobhead h4 {
+			color: #17324D
+		}
+
+		.job ul {
+			padding-left: 18px;
+			margin-top: 10px
+		}
+
+		.job li {
+			margin: 6px 0
+		}
+
+		.projects {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+			gap: 14px
+		}
+
+		.project {
+			background: #f8fafc;
+			padding: 16px;
+			border-left: 4px solid #17324D;
+			border-radius: 8px
+		}
+
+		.footer-note {
+			font-size: 12px;
+			color: #777;
+			margin-top: 10px
+		}
+
+		@media(max-width:900px) {
+			.resume {
+				grid-template-columns: 1fr
+			}
+
+			.main {
+				padding: 25px
+			}
+
+			.hero h1 {
+				font-size: 36px
+			}
+			
+			.section {
+    margin-top: 28px;
+    text-align: center;
+}
+		}
+
+		@media print {
+			body {
+				background: #fff;
+				padding: 0
+			}
+
+			.resume {
+				box-shadow: none;
+				max-width: 100%
+			}
+
+			
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="resume">
+		<aside class="sidebar">
+			<div class="profile">
+				<div class="avatar"></div>
+				<h2>Rahul Rawat</h2>
+				<p>Frontend Web Designer</p>
+			</div>
+
+			<div class="section">
+				<h3>Contact</h3>
+				<ul>
+					<li>📞 9643418730</li>
+					<li>✉️ rahulrawat1058@gmail.com</li>
+					<li>📍 Faridabad, Haryana</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h3>Technical Skills</h3>
+				<ul>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+					<li>jQuery</li>
+					<li>Shopify</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h3>Design Tools</h3>
+				<ul>
+					<li>Figma</li>
+					<li>Photoshop</li>
+					<li>Illustrator</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h3>Education</h3>
+				<ul>
+					<li>B.A. - Delhi University</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h3>Certification</h3>
+				<ul>
+					<li>Diploma in Computer Applications</li>
+				</ul>
+			</div>
+		</aside>
+
+		<main class="main">
+			<div class="hero">
+				<h1>RAHUL RAWAT</h1>
+				<h2>Frontend Web Designer</h2>
+				<p class="tagline">Building responsive and user-friendly web experiences using HTML, CSS, JavaScript & Shopify.</p>
+			</div>
+
+			<div class="card">
+				<h3>Professional Summary</h3>
+				<p>Frontend Web Designer with 8+ years of experience in responsive web design, Shopify customization, UI implementation, and website maintenance. Skilled in HTML5, CSS3, JavaScript, jQuery, Shopify, Figma, and Adobe Photoshop. Experienced in creating responsive interfaces, email newsletters, landing pages, and e-commerce experiences.</p>
+			</div>
+
+			<div class="card">
+				<h3>Work Experience</h3>
+
+				<div class="job">
+					<div class="jobhead">
+						<h4>Frontend Web Designer - Ogaan India Pvt Ltd</h4>
+						<span>Aug 2020 - Present</span>
+					</div>
+					<ul>
+						<li>Develop and maintain responsive web pages using HTML, CSS, JavaScript and jQuery.</li>
+						<li>Customize Shopify themes and website sections.</li>
+						<li>Convert Figma designs into responsive layouts.</li>
+						<li>Create and manage newsletters and promotional banners.</li>
+						<li>Implement SEO-friendly updates and content changes.</li>
+					</ul>
+				</div>
+
+				<div class="job">
+					<div class="jobhead">
+						<h4>Web Designer - The Digital Impressions</h4>
+						<span>Sep 2017 - Aug 2020</span>
+					</div>
+					<ul>
+						<li>Created website layouts, landing pages and digital creatives.</li>
+						<li>Worked on HTML/CSS website updates and maintenance.</li>
+						<li>Collaborated with designers and developers on client projects.</li>
+					</ul>
+				</div>
+
+				<div class="job">
+					<div class="jobhead">
+						<h4>Graphic Designer - Aashni & Co</h4>
+						<span>2016 - 2017</span>
+					</div>
+					<ul>
+						<li>Designed promotional creatives, website graphics and marketing banners.</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="card">
+				<h3>Project Highlights</h3>
+				<div class="projects">
+					<div class="project">
+						<h4>Frontend Web Designer</h4>
+						<p>Created website layouts, landing pages and digital creatives, maintenance and responsive updates.</p>
+					</div>
+					<div class="project">
+						<h4>Shopify Store Management</h4>
+						<p>Theme customization, content updates and landing pages.</p>
+					</div>
+					<div class="project">
+						<h4>Email Template Design</h4>
+						<p>Design newsletter templates for marketing campaigns.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<h3>Strengths</h3>
+				<p>Problem Solving • Quick Learner • Team Collaboration • Attention to Detail • Time Management</p>
+			</div>
+
+			<div class="footer-note">Designed as a modern resume + portfolio style layout. Ready for further customization.</div>
+		</main>
+	</div>
+</body>
+
+</html>
